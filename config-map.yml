@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+  namespace: tp-namespace
+data:
+  BACK_PORT: "3000"
+  DB_NAME: "db_tp"
+  DB_USER: "tp"
+  DB_PASSWORD: "allo1"
+  DB_HOST: "db-service"
